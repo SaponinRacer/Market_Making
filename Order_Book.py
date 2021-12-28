@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import plotly.express as px
 
 def update_order_book(bid_price, quantity, book_df, const_fee, partial=False):
     """Finds and fills the booked order based on the order bid price and desired asset quantity, if it is not possible returns
